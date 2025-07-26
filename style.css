@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+     font-family: "Bree Serif", serif;
+     font-weight: 400;
+     font-style: normal;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #e0ffe1;
+    text-align: center;
+}
+
+header {
+    padding: 30px 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #b7ffb5;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #e0ffe1;
+}
+
+.about h2,
+.about p {
+    color: #f0fff0;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.predict-section form {
+    margin-bottom: 30px;
+}
+
+.predict-section input[type="file"] {
+    background: transparent;
+    border: 2px solid #b7ffb5;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.predict-section input[type="file"]::file-selector-button {
+    background-color: #9fe870;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.predict-section button {
+    background-color: #9fe870;
+    color: #000;
+    padding: 12px 25px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.predict-section button:hover {
+    background-color: #82d658;
+}
+
+.predict-section .result {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.predict-section .result img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
