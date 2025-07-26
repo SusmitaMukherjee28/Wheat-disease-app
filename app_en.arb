@@ -1,0 +1,18 @@
+{
+  "@@locale": "en",
+  "appTitle": "Wheat Guard",
+  "chooseFromGallery": "Choose from Gallery",
+  "captureWithCamera": "Capture with Camera",
+  "predict": "Predict",
+  "noImageSelected": "No image selected",
+  "aboutThisApp": "About this app",
+  "aboutDescription": "This app uses a machine learning model to detect wheat crop diseases from images. Upload or capture a Wheat leaf image and click Predict to view the result.",
+  "healthy": "Healthy",
+  "looseSmut": "Loose Smut",
+  "septoria": "Septoria",
+  "yellowRust": "Yellow Rust",
+  "brownRust": "Brown Rust",
+  "prediction": "Prediction",
+  "predictionFailed": "Prediction failed",
+  "error": "Error"
+}
