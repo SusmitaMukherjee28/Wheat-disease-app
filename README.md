@@ -6,7 +6,7 @@ Tech Stack of the project
 - Backend : Python, Flask
 - ML Model: CNN using TensorFlow
 - Styling : HTML,CSS,JS
-- 
+  
 Dataset Not Included:
 The dataset used to train and test the model is too large to be hosted on GitHub. Please download or place it manually.
 
